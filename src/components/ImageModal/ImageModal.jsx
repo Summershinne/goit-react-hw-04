@@ -1,9 +1,9 @@
 import css from "./ImageModal.module.css";
 import Modal from 'react-modal';
 
-Modal.setAppElement("#root"); 
+Modal.setAppElement("#root");
 
-export default function ImageModal(isOpen, onRequestClose, imageUrlLarge) {
+export default function ImageModal({ isOpen, onRequestClose, imageUrlLarge }) {
     const customStyles = {
   content: {
     top: '50%',
